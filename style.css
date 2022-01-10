@@ -51,6 +51,14 @@ li {
     font-size: 1.3em;
 }
 
+.project-img {
+    width: 250px;
+    height: 170px;
+    object-fit: cover;
+    border: 5px solid lightgray;
+    border-radius: 10px;
+}
+
 .design-logo {
     background-color: var(--custom-red);
 }
@@ -76,6 +84,46 @@ li {
     width: 35%;
     text-align: center;
     font-size: 12px;
+}
+
+/* SMALL */
+@media screen and (min-width: 576px) {
+    #main-header-break {
+        display: none;
+    }
+
+    #main-nav ul{
+        position: relative;
+    }
+
+    #main-nav ul li:nth-of-type(1){
+        position: absolute;
+        bottom: 120px;
+        left: 80px;
+    }
+
+    #main-nav ul li:nth-of-type(2){
+        position: absolute;
+        bottom: 120px;
+        left: 180px;
+    }
+
+    #main-nav ul li:nth-of-type(3){
+        position: absolute;
+        bottom: 120px;
+        right: 180px;
+    }
+
+    #main-nav ul li:nth-of-type(4){
+        position: absolute;
+        bottom: 120px;
+        right: 80px;
+    }
+
+    #circle-thumbnails {
+        border-bottom: 3px solid lightgray;
+        padding-bottom: 10px;
+    }
 }
 
 
