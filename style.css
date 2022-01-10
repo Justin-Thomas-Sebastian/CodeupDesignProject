@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-background-color: #e6e6e6;
+    --nav-background-color: #f0f0f0;
+    --custom-red: #e6563b;
+    --custom-orange: #eb9d3a;
+    --custom-green: #7cb06c;
+    --custom-blue: #00aba9
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    background-color: var(--main-background-color) ;
+    font-family: 'Abel', sans-serif;
+}
+
+#logo-container {
+    height:50px;
+}
+
+#main-logo {
+    width: 105px;
+}
+
+#company-name {
+    font-size: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.circle-border {
+    border: 10px solid white;
+    width: 120px;
+    height: 120px;
+}
+
+.circle-text {
+    font-size: 1.3em;
+}
+
+.design-logo {
+    background-color: var(--custom-red);
+}
+
+.develop-logo {
+    background: var(--custom-orange);
+}
+
+.support-logo {
+    background: var(--custom-blue);
+}
+
+.host-logo {
+    background: var(--custom-green);
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+.icons-container {
+    width: 35%;
+    text-align: center;
+    font-size: 12px;
+}
+
+
