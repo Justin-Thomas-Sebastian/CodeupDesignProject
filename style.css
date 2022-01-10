@@ -86,6 +86,22 @@ li {
     font-size: 12px;
 }
 
+.the-last {
+    display: none;
+}
+
+.last-tweet {
+    display: none;
+}
+
+/*.project-card {*/
+/*    width: 300px;*/
+/*}*/
+
+/*.projects-tab {*/
+/*    width: 300px;*/
+/*}*/
+
 /* SMALL */
 @media screen and (min-width: 576px) {
     #main-header-break {
@@ -126,4 +142,23 @@ li {
     }
 }
 
+@media screen and (min-width: 768px){
+    .the-last {
+        display: inline-block;
+    }
 
+    .last-tweet{
+        display: inline-block;
+    }
+    .tweet-icon {
+        background-color: black;
+    }
+
+    .twitter-icon {
+        background-color: black;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
